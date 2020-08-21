@@ -1,32 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>WEB1 - Welcome</title>
-    <meta charset="utf-8">
-  <link rel="stylesheet" href=style.css">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href=style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="colors.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175174042-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-175174042-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-175174042-1');
-</script>
+      gtag("config", "UA-175174042-1");
+    </script>
   </head>
   <body>
     <h1><a href="index.html">WEB</a></h1>
+    <input
+      id="night_day"
+      type="button"
+      value="night"
+      onclick="
+    nightDayHandler(this);
+  "
+    />
     <div id="grid">
-    <ol>
-      <li><a href="1.html">html</a></li>
-      <li><a href="2.html">css</a></li>
-      <li><a href="3.html">JavaScript</a></li>
-    </ol>
-    <div id="article">
-    <h2>WEB</h2>
-    <p>Web이란 무어시냐
-    </p>
-    </div>
+      <ol>
+        <li><a href="1.html">html</a></li>
+        <li><a href="2.html">css</a></li>
+        <li><a href="3.html">JavaScript</a></li>
+      </ol>
+      <div id="article">
+        <h2>WEB</h2>
+        <p>Web이란</p>
+      </div>
     </div>
   </body>
 </html>
