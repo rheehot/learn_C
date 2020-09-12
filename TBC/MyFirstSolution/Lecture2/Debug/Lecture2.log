@@ -1,2 +1,2 @@
 ﻿  MyFirstProj.c
-  Lecture2.vcxproj -> C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\Debug\Lecture2.exe
+C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\Lecture2\MyFirstProj.c(23,5): error C2065: 'n5': undeclared identifier
