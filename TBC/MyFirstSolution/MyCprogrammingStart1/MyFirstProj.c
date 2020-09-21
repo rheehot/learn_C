@@ -31,6 +31,15 @@ int main()
 	//printf("Size of char type is %zu bytes.\n", char_size);
 	//printf("Size of string type is %zu bytes.\n", str_size);
 
+	char c = 'a';
+	char str1[10] = "Hello";
+	char str2[20] = { 'H', 'i' };
+
+	printf("%c\n", c);
+	printf("%s\n", str1);
+	printf("%s\n", str2);
+
+
 	
 
 	return 0;
