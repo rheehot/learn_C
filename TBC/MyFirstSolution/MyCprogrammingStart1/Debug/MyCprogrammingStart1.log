@@ -1,2 +1,5 @@
 ﻿  MyFirstProj.c
-  MyCprogrammingStart1.vcxproj -> C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\Debug\MyCprogrammingStart1.exe
+C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\MyCprogrammingStart1\MyFirstProj.c(9,11): warning C4477: 'scanf' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'double *'
+C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\MyCprogrammingStart1\MyFirstProj.c(9,11): message : consider using '%lf' in the format string
+C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\MyCprogrammingStart1\MyFirstProj.c(10,9): error C2059: syntax error: 'bad suffix on number'
+C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\MyCprogrammingStart1\MyFirstProj.c(9,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

@@ -1,14 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-struct MyStruct
+void solve(int * n, int len)
 {
-  int i;
-  float f;
-};
+    
+}
 
-int main()
+int main(void)
 {
-  printf("%zu\n", sizeof(struct MyStruct));
-  return 0;
+    int len;
+    int n[20];
+    int i;
+    scanf("%d", &len);
+    
+    for(i = 0; i < len; i++)
+    {
+        scanf("%d", n + i);
+    }
+    
+    solve(n, len);
+    
+    return 0;
 }

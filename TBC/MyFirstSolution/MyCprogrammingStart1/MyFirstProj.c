@@ -1,46 +1,14 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+﻿#include <stdio.h>
 
-#include <stdio.h>
+
 int main()
 {
-	//int a = 0;
-	//unsigned int_size1 = sizeof a;
-	//unsigned int_size2 = sizeof(int);
-	//unsigned int_size3 = sizeof(a);
+    float a; //평
+    double m; //m2
 
-	//size_t int_size4 = sizeof(a);
-	//size_t float_size = sizeof(float);
+    scanf("%f", &m); //입력받은 값에 0.3을 곱한다.
+    m = 0.3a;
+    printf("%0.1f", a);
 
-	//printf("Size of int type is %u bytes.\n", int_size1);
-	//printf("Size of int type is %zu bytes.\n", int_size4);
-	//printf("Size of float type is %zu bytes.\n", float_size);
-
-	//int int_arr[30]; 
-	//int *int_ptr = NULL;
-	//int_ptr = (int*)malloc(sizeof(int) * 30);
-
-	//printf("Size of array = %zu bytes\n", sizeof(int_arr));
-	//printf("Size of pointer = %zu bytes\n", sizeof(int_ptr));
-
-	//char c = 'a';
-	//char string[10]; 
-
-	//size_t char_size = sizeof(char);
-	//size_t str_size = sizeof(string);
-
-	//printf("Size of char type is %zu bytes.\n", char_size);
-	//printf("Size of string type is %zu bytes.\n", str_size);
-
-	char c = 'a';
-	char str1[10] = "Hello";
-	char str2[20] = { 'H', 'i' };
-
-	printf("%c\n", c);
-	printf("%s\n", str1);
-	printf("%s\n", str2);
-
-
-	
-
-	return 0;
+    return 0;
 }

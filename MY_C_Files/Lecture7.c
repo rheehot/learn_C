@@ -2,23 +2,15 @@
 
 int main()
 {
-  // int a = 1;
-  // int int_arr[10] = {0,1,2,3,4,5,6,7,8,9};
+  char str1[100] = "Hello";
+  char str2[] = "Hello";
+  char str3[100] = "\0";
+  char str4[100] = "\n";
 
-  // printf("%i %i %i\n", int_arr[0], int_arr[1], int_arr[9]);
-
-  // printf("%i\n", int_arr[10000]);
-
-  char c = 'a';
-  char str1[10] = "Hello";
-  char str2[20] = {'H', 'i'};
-
-  printf("%c\n", c);
-  printf("%s\n", str1);
-  printf("%s\n", str2);
-
-  printf("%hhi %hhi %hhi %hhi %hhi\n",
-         str2[0], str2[1], str2[2], str2[3], str2[4]);
+  printf("%zu %zu\n", sizeof(str1), strlen(str1));
+  printf("%zu %zu\n", sizeof(str2), strlen(str2));
+  printf("%zu %zu\n", sizeof(str3), strlen(str3));
+  printf("%zu %zu\n", sizeof(str4), strlen(str4));
 
   return 0;
 }
