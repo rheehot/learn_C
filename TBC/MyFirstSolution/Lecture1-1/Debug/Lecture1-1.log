@@ -1,2 +1,2 @@
 ﻿  MyFirstProj.c
-  Lecture1-1.vcxproj -> C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\Debug\Lecture1-1.exe
+C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\Lecture1-1\MyFirstProj.c(31,2): error C2143: syntax error: missing ';' before 'return'

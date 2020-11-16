@@ -1,0 +1,9 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\ConsoleApplication1\ConsoleApplication1.cpp(197,10): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\ConsoleApplication1\ConsoleApplication1.cpp(226,6): warning C4101: 'div': unreferenced local variable
+C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\ConsoleApplication1\ConsoleApplication1.cpp(296,11): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\ConsoleApplication1\ConsoleApplication1.cpp(383,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\ConsoleApplication1\ConsoleApplication1.cpp(406,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\ConsoleApplication1\ConsoleApplication1.cpp(413,11): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\ConsoleApplication1\ConsoleApplication1.cpp(414,16): warning C4018: '>': signed/unsigned mismatch
+  ConsoleApplication1.vcxproj -> C:\Users\ONE\Desktop\github\TBC\MyFirstSolution\Debug\ConsoleApplication1.exe
