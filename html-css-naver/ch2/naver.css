@@ -17,6 +17,10 @@ body {
   overflow: hidden;
 }
 
+#header-top {
+  float: right;
+}
+
 .center-align {
   margin: 0 auto;
   width: 1080px;
