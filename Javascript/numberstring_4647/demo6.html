@@ -7,13 +7,19 @@
 </head>
 <body>
   <script type="text/javascript">
-    function numbering() {
-      i = 0;
-      while(i < 10){
-        document.write(i+"<br />");
-        i++;
-      }
+  /* function get_argument(arg){
+     return arg*1000;
+   }
+
+   alert(get_argument(1));
+   alert(get_argument(2));*/
+  numbering = function (){
+    i = 0;
+    while(i < 10){
+      document.write(i);
+      i += 1;
     }
+  }
   numbering();
   </script>
 </body>
