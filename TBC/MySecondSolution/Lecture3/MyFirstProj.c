@@ -1,11 +1,19 @@
-﻿#include <stdio.h>
+﻿#include <limits.h>
+#include <stdio.h>
 
-int main()
-{
-	unsigned int i = 0;
+int main() {
+	unsigned int u_max = UINT_MAX;
+	unsigned int u_min = 0;
+	signed int i_max = INT_MAX;
+	signed int i_min = INT_MIN;
 
-	sizeof(unsigned int);
 
+	printf("max of uint = %u\n", u_max);
+	printf("min of uint = %u\n", u_min);
+
+	printf("max of int = %d\n", i_max);
+	printf("min of int = %d\n", i_min);
 
 	return 0;
 }
+
