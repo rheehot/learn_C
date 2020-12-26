@@ -1,5 +1,6 @@
 ﻿#include <limits.h>
 #include <stdio.h>
+#include <string.h>
 
 /*
 int main() {
@@ -19,7 +20,7 @@ int main() {
 }
 */
 
-int main(void)
+/*int main(void)
 {
 	int numbers[6] = { 4, 8, 15, 16, 23, 42 };
 
@@ -31,4 +32,23 @@ int main(void)
 		}
 	}
 	printf("Not found\n");
+}
+*/
+
+
+
+int main() {
+	string names[4] = { "EMMA", "RODRIGO", "BRIAN", "DAVID" };
+	string numbers[4] = { "617-555-0100", "617-555-0101", "617-555-5152", "617-555-5153" };
+
+	for (int i = 0; i < 4; i++)
+	{
+		if (strcmp(names[i], "EMMA") == 0)
+		{
+			printf("%s\n", numbers[i]);
+			return 0;
+		}
+	}
+	printf("Not found\n");
+	return 1;
 }
