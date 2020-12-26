@@ -1,6 +1,7 @@
 ﻿#include <limits.h>
 #include <stdio.h>
 
+/*
 int main() {
 	unsigned int u_max = UINT_MAX;
 	unsigned int u_min = 0;
@@ -16,4 +17,18 @@ int main() {
 
 	return 0;
 }
+*/
 
+int main(void)
+{
+	int numbers[6] = { 4, 8, 15, 16, 23, 42 };
+
+	for (int i = 0; i < 6; i++)
+	{
+		if (numbers[i] == 50)
+		{
+			prinft("Found!\n");
+		}
+	}
+	printf("Not found\n");
+}
