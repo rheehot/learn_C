@@ -37,7 +37,7 @@ int main() {
 
 
 
-int main() {
+/*int main() {
 	string names[4] = { "EMMA", "RODRIGO", "BRIAN", "DAVID" };
 	string numbers[4] = { "617-555-0100", "617-555-0101", "617-555-5152", "617-555-5153" };
 
@@ -51,4 +51,9 @@ int main() {
 	}
 	printf("Not found\n");
 	return 1;
+}*/
+
+int main() {
+	printf("\"C:\\Download\\hello.cpp\"");
+	return 0;
 }
