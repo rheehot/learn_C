@@ -1,59 +1,54 @@
-﻿#include <limits.h>
-#include <stdio.h>
+﻿/*#include <stdio.h>
 #include <string.h>
 
-/*
-int main() {
-	unsigned int u_max = UINT_MAX;
-	unsigned int u_min = 0;
-	signed int i_max = INT_MAX;
-	signed int i_min = INT_MIN;
 
-
-	printf("max of uint = %u\n", u_max);
-	printf("min of uint = %u\n", u_min);
-
-	printf("max of int = %d\n", i_max);
-	printf("min of int = %d\n", i_min);
-
-	return 0;
-}
-*/
-
-/*int main(void)
+void	ft_memcpy(void* dest, const void* src, size_t n)
 {
-	int numbers[6] = { 4, 8, 15, 16, 23, 42 };
+	int	i;
 
-	for (int i = 0; i < 6; i++)
+	i = 0;
+	while (i < n)
 	{
-		if (numbers[i] == 50)
-		{
-			prinft("Found!\n");
-		}
+		((unsigned char*)dest)[i] = ((unsigned char*)src)[i];
+		i++;
 	}
-	printf("Not found\n");
 }
-*/
 
+int main() {
+	char str1[] = "Sample string";
+	char str2[40];
+	char str3[40];
 
-
-/*int main() {
-	string names[4] = { "EMMA", "RODRIGO", "BRIAN", "DAVID" };
-	string numbers[4] = { "617-555-0100", "617-555-0101", "617-555-5152", "617-555-5153" };
-
-	for (int i = 0; i < 4; i++)
-	{
-		if (strcmp(names[i], "EMMA") == 0)
-		{
-			printf("%s\n", numbers[i]);
-			return 0;
-		}
-	}
-	printf("Not found\n");
-	return 1;
+	memcpy(str2, str1, strlen(str1) + 1);
+	memcpy(str3, "copy successful", 16);
+	printf("str1: %s\nstr2: %s\nstr3: %s\n", str1, str2, str3);
+	return 0;
 }*/
 
-int main() {
-	printf("\"C:\\Download\\hello.cpp\"");
-	return 0;
+#include <stdio.h>
+#include <stdlib.h>
+void* ft_memset(void* s, int c, size_t n)
+{
+	//size_t
+	//`unsigned int`를 size_t라는 이름으로 정의해 놓은 것.
+	// typedef `unsigned int` `size_t`;
+	char* ptr;
+	size_t	i;
+
+	ptr = s;
+	i = 0;
+	while (i < n)
+		ptr[i++] = c;
+	return (s);
+}
+	//malloc, free 함수가 선언된 헤더 파일
+//#include <string.h>	//memset 함수가 선언된 헤더파일
+
+#include <stdio.h>
+int main()
+{
+	char str[100] = "Hello World!";
+	printf("%s\n", str);
+	printf("%s\n", ft_memset(str, 'a', 5));
+	printf("%s\n", str);
 }

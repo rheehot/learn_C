@@ -1,2 +1,3 @@
 ﻿  MyFirstProj.c
+C:\Users\ONE\Desktop\github\TBC\MySecondSolution\Lecture3\MyFirstProj.c(52,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'void *'
   Lecture3.vcxproj -> C:\Users\ONE\Desktop\github\TBC\MySecondSolution\Debug\Lecture3.exe
