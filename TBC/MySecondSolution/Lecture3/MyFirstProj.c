@@ -45,10 +45,14 @@ void* ft_memset(void* s, int c, size_t n)
 //#include <string.h>	//memset 함수가 선언된 헤더파일
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 int main()
 {
 	char str[100] = "Hello World!";
 	printf("%s\n", str);
 	printf("%s\n", ft_memset(str, 'a', 5));
 	printf("%s\n", str);
+	memcpy
 }

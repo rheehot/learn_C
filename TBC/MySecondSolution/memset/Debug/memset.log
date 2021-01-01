@@ -1,0 +1,4 @@
+﻿  MyFirstProj.c
+C:\Users\ONE\Desktop\github\TBC\MySecondSolution\memset\MyFirstProj.c(12,12): warning C4090: '=': different 'const' qualifiers
+C:\Users\ONE\Desktop\github\TBC\MySecondSolution\memset\MyFirstProj.c(19,14): warning C4098: 'ft_memcpy': 'void' function returning a value
+  memset.vcxproj -> C:\Users\ONE\Desktop\github\TBC\MySecondSolution\Debug\memset.exe
