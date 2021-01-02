@@ -1,3 +1,2 @@
 ﻿  MyFirstProj.c
-C:\Users\ONE\Desktop\github\TBC\MySecondSolution\memccpy\MyFirstProj.c(80,21): error C2065: 'EXIT_SUCCESS': undeclared identifier
-C:\Users\ONE\Desktop\github\TBC\MySecondSolution\memccpy\MyFirstProj.c(76,2): error C4996: 'memccpy': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _memccpy. See online help for details.
+  memccpy.vcxproj -> C:\Users\ONE\Desktop\github\TBC\MySecondSolution\Debug\memccpy.exe

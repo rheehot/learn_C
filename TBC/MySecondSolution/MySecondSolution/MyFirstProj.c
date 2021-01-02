@@ -1,21 +1,9 @@
 ﻿#include <stdio.h>
+#include <string.h>
 
-
-void say_hello(void)
-{
-	printf("Hello, World!");
-}
-int main()
-{
-	int x, y, z;
-
-	x = 1;
-	y = 20;
-	z = 3;
-
-	z = x + y;
-
-	say_hello();
-
+int main() {
+	char str[] = "memmove can be very useful......";
+	memmove(str + 20, str + 15, 11);
+	printf("after : %s\n", str);
 	return 0;
 }
