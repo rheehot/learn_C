@@ -1,2 +1,2 @@
 ﻿  MyFirstProj.c
-C:\Users\ONE\Desktop\github\TBC\MySecondSolution\Lecture2\MyFirstProj.c(11,5): error C4996: 'memccpy': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _memccpy. See online help for details.
+  Lecture2.vcxproj -> C:\Users\ONE\Desktop\github\TBC\MySecondSolution\Debug\Lecture2.exe
