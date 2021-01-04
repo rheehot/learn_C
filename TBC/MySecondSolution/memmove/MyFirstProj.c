@@ -1,8 +1,13 @@
 ﻿#include <stdio.h>
+#include <string.h>
 
-int main()
+char* msg = "This is the string: not copied";
+
+void main()
 {
-	printf("Hello, World!");
+    char buffer[80];
 
-	return 0;
+    memset(buffer, '\0', 80);
+    memccpy(buffer, msg, ':', 80);
+    printf("%s\n", buffer);
 }

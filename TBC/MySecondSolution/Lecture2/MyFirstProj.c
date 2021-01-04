@@ -1,16 +1,13 @@
-﻿//#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
+﻿#include <stdio.h>
+#include <string.h>
 
-int main()
+char* msg = "This is the string: not copied";
+
+void main()
 {
-	float won = 0, dollar = 0;
+    char buffer[80];
 
-	printf("Input Won\n");
-	scanf("%f", &won);
-
-	dollar = won * 0.00089f;
-
-	printf("Dollar = %f\n", dollar);
-
-	return 0;
+    memset(buffer, '\0', 80);
+    memccpy(buffer, msg, ':', 80);
+    printf("%s\n", buffer);
 }
