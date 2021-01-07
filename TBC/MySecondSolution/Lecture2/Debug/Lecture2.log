@@ -1,3 +1,2 @@
 ﻿  MyFirstProj.c
-C:\Users\ONE\Desktop\github\TBC\MySecondSolution\Lecture2\MyFirstProj.c(21,5): warning C4098: 'main': 'void' function returning a value
   Lecture2.vcxproj -> C:\Users\ONE\Desktop\github\TBC\MySecondSolution\Debug\Lecture2.exe

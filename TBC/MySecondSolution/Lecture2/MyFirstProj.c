@@ -1,22 +1,16 @@
 ﻿#include <stdio.h>
+#include <string.h>
 
-size_t  ft_strlen(const char* s)
+#define SIZE 40
+
+int main(void)
 {
-    size_t i;
+    char buffer1[SIZE] = "computer program";
+    char* ptr;
+    int    ch = 'p';
 
-    i = 0;
-    while (s[i] != '\0')
-        i++;
-    return (i);
-}
- 
-void main()
-{
-    char str1[20] = "Hello";
-    char str2[30] = "Worl\0d!!";
-    
-    printf("str1 len : %d\n", ft_strlen(str1));
-    printf("str2 len : %d\n", ft_strlen(str2));
+    ptr = strchr(buffer1, ch);
+    printf("The first occurrence of %c in '%s' is '%s'\n",
+        ch, buffer1, ptr);
 
-    return (0);
 }
