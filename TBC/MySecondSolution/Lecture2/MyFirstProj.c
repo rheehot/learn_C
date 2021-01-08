@@ -1,23 +1,33 @@
 ﻿#include <stdio.h>
 
-
-char* ft_strnstr(const char* big, const char* little, size_t len)
+/*
+int	ft_strncmp(const char* s1, const char* s2, size_t n)
 {
 	size_t	i;
-	size_t	j;
 
 	i = 0;
-	j = 0;
-	if (*little == '\0')
-		return ((char*) big);
-	while (big[i] != '\0' && i < len)
+	if (!n)
+		return (0);
+	while (s1[i] && s2[i] && s1[i] == s2[i] && i < (n - 1))
+		i++;
+	if (s1[i] == s2[i])
+		return (0);
+	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
+}*/
+
+int					ft_strncmp(const char* s1, const char* s2, size_t n)
+{
+	unsigned char* p1;
+	unsigned char* p2;
+	size_t			i;
+
+	p1 = (unsigned char*)s1;
+	p2 = (unsigned char*)s2;
+	i = 0;
+	while (n--)
 	{
-		while (big[i + j] == little[j] && i + j < len)
-		{
-			j++;
-			if (little[j] == '\0')
-				return ((char*)&big[i]);
-		}
+		if (p1[i] != p2[i] || p1[i] == 0 || p2[i] == 0)
+			return (p1[i] - p2[i]);
 		i++;
 	}
 	return (0);
@@ -25,12 +35,18 @@ char* ft_strnstr(const char* big, const char* little, size_t len)
 
 int main()
 {
-	char s1[30] = "pen pineapple apple pen!";
+    char s1[10] = "aaa";
+    char s2[10] = "aab";
 
-	char* ptr = ft_strnstr(s1, "pine", 10);
-	printf("%s\n", ptr);
-	char* ptr1 = ft_strnstr(s1, "pine", 5);
-	printf("%s\n", ptr1);
+    int compare1 = ft_strncmp(s1, s2, 2);
+    int compare2 = ft_strncmp(s2, s1, 4);
+    int compare3 = ft_strncmp(s1, s2, 4);
+    int compare4 = ft_strncmp(s1, s2, 0);
 
-	return (0);
+    printf("결과1 : %d\n", compare1);
+    printf("결과2 : %d\n", compare2);
+    printf("결과3 : %d\n", compare3);
+    printf("결과4 : %d\n", compare4);
+
+    return 0;
 }
